@@ -16,6 +16,11 @@ a, a:hover {
     height: 100%;
     width: 100%;
 }
+.area {
+    border: 5px dotted #ccc;
+    padding: 10px;
+    text-align: center;
+}
 
 #sidebar {
     -webkit-user-select: none;

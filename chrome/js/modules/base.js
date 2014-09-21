@@ -172,6 +172,7 @@ pm.init = function () {
     pm.filesystem.init();
     pm.indexedDB.open();
     pm.broadcasts.init();
+    pm.importFiles.init();
     $(":input:first").focus();
 };
 
